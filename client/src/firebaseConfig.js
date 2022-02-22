@@ -24,13 +24,14 @@ import "firebase/compat/storage";
 // export { app, projectStorage, auth, timestamp };
 
 const app = firebase.initializeApp({
-  apiKey: "AIzaSyCzdxL13GgcPZvzjwsUXhTKuCHYbJ3BzKc",
-  authDomain: "blog-5ab4d.firebaseapp.com",
-  projectId: "blog-5ab4d",
-  storageBucket: "blog-5ab4d.appspot.com",
-  messagingSenderId: "341626019964",
-  appId: "1:341626019964:web:74824e210b130e619369f9",
-  measurementId: "G-BBX192ECLL",
+  // ****************** Firebase configuration ***********************
+  // apiKey: "AIzaSyCzdxL13GgcPZvzjwsUXhTKuCHYbJ3BzKc",
+  // authDomain: "blog-5ab4d.firebaseapp.com",
+  // projectId: "blog-5ab4d",
+  // storageBucket: "blog-5ab4d.appspot.com",
+  // messagingSenderId: "341626019964",
+  // appId: "1:341626019964:web:74824e210b130e619369f9",
+  // measurementId: "G-BBX192ECLL",
 });
 export const auth = app.auth();
 export const googleProvider = new firebase.auth.GoogleAuthProvider();
