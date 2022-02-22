@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  /* text-align: center; */
+}
+.footer {
+  background-color: #1976d2;;
+  border-top:2px solid red;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  font-size: 25px;
+ }
